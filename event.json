@@ -1,0 +1,58 @@
+{
+  "Records": [
+    {
+      "kinesis": {
+        "kinesisSchemaVersion": "1.0",
+        "partitionKey": "pk-bab4f94b-77b9-41fe-9489-2d22847f3441",
+        "sequenceNumber": "49557610643968308858895866068187453473373717027457335298",
+        "data": {
+          "user_id" : "test_1",
+          "clientDate" : "2022-04-29T14:18:01Z",
+          "target" : "my_target",
+          "featureVars" : {},
+          "metaData" : {
+            "key" : "value",
+            "example": 123
+          },
+          "type" : "my_event",
+          "value" : 3
+        },
+        "approximateArrivalTimestamp": 1468419337.392
+      },
+      "eventSource": "aws:kinesis",
+      "eventVersion": "1.0",
+      "eventID": "shardId-000000000000:49557610643968308858895866068187453473373717027457335298",
+      "eventName": "aws:kinesis:record",
+      "invokeIdentityArn": "arn:aws:iam::790431067345:role/devcycle-lambda-role",
+      "awsRegion": "us-east-1",
+      "eventSourceARN": "arn:aws:kinesis:us-east-1:790431067345:stream/devcycle-lambda-example"
+    },
+    {
+      "kinesis": {
+        "kinesisSchemaVersion": "1.0",
+        "partitionKey": "pk-bab4f94b-77b9-41fe-9489-2d22847f3441",
+        "sequenceNumber": "4955761064396830885889586606818745347337371712327457335298",
+        "data": {
+          "user_id" : "test_2",
+          "clientDate" : "2022-04-29T14:18:01Z",
+          "target" : "my_target",
+          "featureVars" : {},
+          "metaData" : {
+            "key" : "value",
+            "example": 17
+          },
+          "type" : "my_event",
+          "value" : 60
+        },
+        "approximateArrivalTimestamp": 1468419337.392
+      },
+      "eventSource": "aws:kinesis",
+      "eventVersion": "1.0",
+      "eventID": "shardId-000000000000:49557610643968308858895866068187453473373717027457335299",
+      "eventName": "aws:kinesis:record",
+      "invokeIdentityArn": "arn:aws:iam::790431067345:role/devcycle-lambda-role",
+      "awsRegion": "us-east-1",
+      "eventSourceARN": "arn:aws:kinesis:us-east-1:790431067345:stream/devcycle-lambda-example"
+    }
+  ]
+}
